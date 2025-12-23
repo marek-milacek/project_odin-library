@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Moje Knihovna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Moje Knihovna</h1>
+    <button id="new-book-btn">Nová kniha</button>
+
+    <dialog id="book-dialog">
+        <form id="book-form">
+            <h2>Přidat knihu</h2>
+            <input type="text" id="title" placeholder="Název knihy" required>
+            <input type="text" id="author" placeholder="Autor" required>
+            <input type="number" id="pages" placeholder="Počet stran" required>
+            <label>
+                Přečteno?
+                <input type="checkbox" id="read">
+            </label>
+            <div class="form-buttons">
+                <button type="submit">Přidat</button>
+                <button type="button" id="close-btn">Zrušit</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div id="library-display"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

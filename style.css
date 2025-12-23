@@ -1,0 +1,20 @@
+#library-display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+#book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
